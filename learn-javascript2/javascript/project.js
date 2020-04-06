@@ -32,11 +32,16 @@ const showContacts = contacts => {
         console.log(`${contact.id}) ${contact.name}
     (${contact.phone}) <${contact.email}>`)
 }
-
 }
+show myContacts(myContacts)
+
+
+// add contact
+namaSiswaImpactByte.push({id: 4, name:"Alvi Geovanny", phone: '081275782482', email: 'alvigeovan29@gmail.com'},
+                         {id: 5, name:"Agnes Jocelyn", phone: '084920726363', email: 'Agnes.jocelyn@gmail.com'});
 
 // filter contact
-const newContact = myContacts.filter(item => item.id > 2)
+const newContact = myContacts.filter(item => item.id < 2)
 console.log(newContact);
 console.log(newContact.length);
 
