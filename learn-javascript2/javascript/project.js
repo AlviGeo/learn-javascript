@@ -20,20 +20,15 @@ const myContacts = [
     }
 ]
 
-// create contact console with method show contact, filter 
-// contact and delete contact.
-
-
 // show contact
 const showContacts = contacts => {
-    for (let index = 0; index < contacts.length; index++)
-{
+    for (let index = 0; index < contacts.length; index++) {
         const contact = contacts[index]
-        console.log(`${contact.id}) ${contact.name}
-    (${contact.phone}) <${contact.email}>`)
+        console.log(`${contact.id}) ${contact.name} 
+        (${contact.phone}) <${contact.email}>`)
+    }
 }
-}
-show myContacts(myContacts)
+showContacts(myContacts);
 
 
 // add contact
