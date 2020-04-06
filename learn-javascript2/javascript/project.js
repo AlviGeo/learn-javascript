@@ -25,7 +25,15 @@ const myContacts = [
 
 
 // show contact
-console.log(myContacts[1].name);
+const showContacts = contacts => {
+    for (let index = 0; index < contacts.length; index++)
+{
+        const contact = contacts[index]
+        console.log(`${contact.id}) ${contact.name}
+    (${contact.phone}) <${contact.email}>`)
+}
+
+}
 
 // filter contact
 const newContact = myContacts.filter(item => item.id > 2)
