@@ -32,8 +32,8 @@ showContacts(myContacts);
 
 
 // add contact
-namaSiswaImpactByte.push({id: 4, name:"Alvi Geovanny", phone: '081275782482', email: 'alvigeovan29@gmail.com'},
-                         {id: 5, name:"Agnes Jocelyn", phone: '084920726363', email: 'Agnes.jocelyn@gmail.com'});
+myContacts.push({id: 4, name:"Alvi Geovanny", phone: '081275782482', email: 'alvigeovan29@gmail.com'},
+                {id: 5, name:"Agnes Jocelyn", phone: '084920726363', email: 'Agnes.jocelyn@gmail.com'})
 
 // filter contact
 const newContact = myContacts.filter(item => item.id < 2)
